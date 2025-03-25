@@ -9,8 +9,10 @@
         <e p="Scripts" t="Include">
           <e p="Ball.cs" t="Include" />
           <e p="Coin.cs" t="Include" />
+          <e p="CoinCollector.cs" t="Include" />
           <e p="Floor.cs" t="Include" />
           <e p="GameController.cs" t="Include" />
+          <e p="MovementController.cs" t="Include" />
           <e p="TargetFollower.cs" t="Include" />
         </e>
       </e>

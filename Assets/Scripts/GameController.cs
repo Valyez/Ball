@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
@@ -8,7 +5,6 @@ public class GameController : MonoBehaviour
     private const string LOSE_STRING = "Вы проиграли!";
     private const string WIN_STRING = "Вы выиграли!";
     private const string TIME_STRING = "Текущее время: ";
-
 
     [SerializeField] float _maxTime;
     [SerializeField] int _scoreToWin;
@@ -23,7 +19,7 @@ public class GameController : MonoBehaviour
         _isRunning = true;
     }
 
-    void Update()
+    private void Update()
     {
         if (_isRunning)
         {
@@ -36,7 +32,7 @@ public class GameController : MonoBehaviour
             Lose();
         }
 
-        _score = _ball.Points;
+        _score = _ball.getCoinsCount();
 
         if (_score == _scoreToWin)
         {

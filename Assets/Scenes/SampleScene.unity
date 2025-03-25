@@ -1234,6 +1234,9 @@ GameObject:
   - component: {fileID: 560112350}
   - component: {fileID: 560112349}
   - component: {fileID: 560112352}
+  - component: {fileID: 560112354}
+  - component: {fileID: 560112356}
+  - component: {fileID: 560112355}
   - component: {fileID: 560112353}
   m_Layer: 0
   m_Name: Sphere
@@ -1340,8 +1343,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39cc5165bc53c7045b6746cc7d2a5ac2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _jumpForce: 4
-  _horizontalForce: 10
 --- !u!54 &560112353
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1369,6 +1370,44 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &560112354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560112347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc1a26d99424fd4b11902ba19ef31ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &560112355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560112347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bc1a26d99424fd4b11902ba19ef31ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &560112356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560112347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7befb121acbb4f7f972fe861ea15a6cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _jumpForce: 4
+  _horizontalForce: 5
 --- !u!1 &656215990
 GameObject:
   m_ObjectHideFlags: 0
